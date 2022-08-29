@@ -1,0 +1,56 @@
+#main{
+    background-color: rgb(44, 44, 84);
+    position: relative;
+    height: 8vh;
+    
+}
+
+#main a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.text{
+    margin-top: 10px;
+
+
+}
+
+
+.icons{
+    color:white;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.active{
+    width: 100%!important;
+    opacity: 1 !important;
+    visibility: visible !important;
+
+}
+
+
+#sidebar{
+    background-color: aqua;
+    text-align: center;
+    transition: 0.3s;
+    position: fixed;
+    top:50% !important; 
+    visibility: hidden;
+    height: 100%;    
+}
+
+#close{
+    cursor: pointer;
+}
+
+.x-button{
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+}
